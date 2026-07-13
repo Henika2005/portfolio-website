@@ -559,3 +559,87 @@ body::after{
     left:100px;
     opacity:.25;
 }
+/* ========================= */
+/* Mobile Responsive Design */
+/* ========================= */
+
+@media (max-width: 768px) {
+
+    header{
+        flex-direction: column;
+        padding: 15px 20px;
+    }
+
+    nav{
+        margin-top:15px;
+        display:flex;
+        flex-wrap:wrap;
+        justify-content:center;
+        gap:15px;
+    }
+
+    nav a{
+        margin:0;
+        font-size:16px;
+    }
+
+    .hero{
+        flex-direction:column;
+        text-align:center;
+        padding:140px 20px 60px;
+    }
+
+    .hero-text{
+        width:100%;
+    }
+
+    .hero-text h1{
+        font-size:42px;
+    }
+
+    .hero-text h2{
+        font-size:28px;
+    }
+
+    .hero-text h3{
+        font-size:22px;
+    }
+
+    .hero-text p{
+        font-size:16px;
+    }
+
+    .hero-image{
+        width:100%;
+        margin-top:40px;
+    }
+
+    .hero-image img{
+        width:250px;
+    }
+
+    .about,
+    .skills,
+    .projects,
+    .contact{
+        padding:60px 20px;
+    }
+
+    .skill-container,
+    .project-container{
+        flex-direction:column;
+        align-items:center;
+    }
+
+    .skill-card,
+    .project-card{
+        width:100%;
+        max-width:350px;
+    }
+
+    .about-card,
+    .contact-card{
+        width:100%;
+    }
+
+}
