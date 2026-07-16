@@ -1,3 +1,4 @@
+
 /* Google Font */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
 
@@ -251,6 +252,7 @@ nav a:hover::after{
     font-weight:600;
     transition:.4s;
     box-shadow:0 10px 25px rgba(124,77,255,.35);
+    cursor:pointer;
 }
 
 .btn:hover{
@@ -449,6 +451,7 @@ nav a:hover::after{
     border-radius:30px;
     font-weight:600;
     transition:.3s;
+    cursor:pointer;
 }
 .project-btn:hover{
     transform:translateY(-3px);
@@ -519,6 +522,7 @@ nav a:hover::after{
     border-radius:30px;
     transition:.3s;
     font-weight:600;
+    cursor:pointer;
 }
 
 .social-links a:hover{
