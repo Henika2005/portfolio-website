@@ -253,6 +253,7 @@ nav a:hover::after{
     transition:.4s;
     box-shadow:0 10px 25px rgba(124,77,255,.35);
     cursor:pointer;
+    letter-spacing:.5px;
 }
 
 .btn:hover{
@@ -933,4 +934,21 @@ footer p{
 .top-btn:hover{
     transform:translateY(-4px);
     box-shadow:0 12px 25px rgba(124,77,255,.4);
+}
+section{
+    animation:fadeUp .8s ease;
+}
+
+@keyframes fadeUp{
+
+    from{
+        opacity:0;
+        transform:translateY(40px);
+    }
+
+    to{
+        opacity:1;
+        transform:translateY(0);
+    }
+
 }
